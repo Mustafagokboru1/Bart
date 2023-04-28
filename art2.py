@@ -2,7 +2,7 @@ from bitcoinlib.wallets import Wallet
 from bitcoinlib.transactions import Transaction
 
 # Yeni bir cüzdan oluştur
-wallet = Wallet.create("my_wallet")
+wallet = Wallet.create("my_wallet_31")
 
 # Bitcoin blok zincirini okumak için blok yükleyiciyi oluştur
 block_fetcher = wallet.get_block_fetcher()
