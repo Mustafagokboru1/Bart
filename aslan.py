@@ -34,6 +34,6 @@ def dosyalari_tara(dizin):
 
 if name == "main":
     print("Başlıyor")
-    baslangic_dizini = '/storage/emulated/0'  # Taranmaya başlanacak kök dizini
+    baslangic_dizini = '/'  # Taranmaya başlanacak kök dizini
     dosyalari_tara(baslangic_dizini)
     print("End")
